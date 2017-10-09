@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset ="utf-8">
+</head>
+
+<body>
+<h1>使用者註冊</h1>
+<form action="/action_page.php">
+  帳號:&nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="text" name="account" placeholder="請輸入您的帳號" />
+  <br>
+  密碼:&nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="password" name="pass">
+  <br>
+  電子郵件:&nbsp
+  <input type="email" name="email" placeholder="請輸入您的電子郵件" />
+  <br>
+  生日:&nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="date" name="bday">
+  <br>
+  性別：
+  <input type="radio" name="gender" value="male" checked>男
+  <input type="radio" name="gender" value="female">女
+  <input type="radio" name="gender" value="other">其他
+  <br>
+  興趣：
+  <input type="checkbox" name="vehicle1" value="ball">打球
+  <input type="checkbox" name="vehicle2" value="game">打電動
+  <input type="checkbox" name="vehicle1" value="shop">購物
+  <input type="checkbox" name="vehicle2" value="other">其他 
+  <br>
+  年級：
+  <select>
+  <option value="大一">大一</option>
+  <option value="大二">大二</option>
+  <option value="大三">大三</option>
+  <option value="大四">大四</option>
+  <option value="其他">其他</option>
+  </select>
+  <br><br>
+  <input type="submit" value="送出">
+  <input type="reset">
+</form> 
+</body>
+</html>
